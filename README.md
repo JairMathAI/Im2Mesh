@@ -340,7 +340,7 @@ The training [script](./core/train_HarmonicRegressionNet.py) generate the infere
 For inference with the model run:
 
 ```bash
-python core/HarmonicRegressionNet_inference.py --input_dir path/to/test/images/folder --weights_path path/to/trained/model/.pt --inference_mode multicell2multicell  --n_start_filters 32 --latent_dim 512 --target_dim 2503
+python core/HarmonicRegressionNet_inference.py --input_folder path/to/test/images/folder --checkpoint path/to/trained/model/.pt --mode_prediction multicell2multicell  --n_start_filters 32 --latent_dim 512 --target_dim 2503
 ```
 
 ## Implicit models
